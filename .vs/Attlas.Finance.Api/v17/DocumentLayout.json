@@ -1,12 +1,326 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|solutionrelative:attlas.domain.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\handlers\\userhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.infra\\contexts\\attlasfinancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|solutionrelative:attlas.domain.infra\\contexts\\attlasfinancecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.infra\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|solutionrelative:attlas.domain.infra\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\commands\\output\\createusercommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\commands\\output\\createusercommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\commands\\contracts\\icommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\commands\\contracts\\icommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\value objects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\value objects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\value objects\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\value objects\\name.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\handlers\\contracts\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\handlers\\contracts\\ihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\commands\\input\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\commands\\input\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\commands\\contracts\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\commands\\contracts\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\enums\\categorystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\enums\\categorystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\enums\\pixtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\enums\\pixtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Attlas.Domain.Infra\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:40:11.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Settings.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Settings.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Settings.cs",
+              "RelativeToolTip": "Attlas.Domain.Infra\\Settings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:37:31.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttlasFinanceContext.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Contexts\\AttlasFinanceContext.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Contexts\\AttlasFinanceContext.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Contexts\\AttlasFinanceContext.cs",
+              "RelativeToolTip": "Attlas.Domain.Infra\\Contexts\\AttlasFinanceContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:36:19.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUserCommandResult.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Output\\CreateUserCommandResult.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Commands\\Output\\CreateUserCommandResult.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Output\\CreateUserCommandResult.cs",
+              "RelativeToolTip": "Attlas.Domain\\Commands\\Output\\CreateUserCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:26:01.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Attlas.Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:50:25.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Attlas.Domain\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:18:58.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IHandler.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Handlers\\Contracts\\IHandler.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Handlers\\Contracts\\IHandler.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Handlers\\Contracts\\IHandler.cs",
+              "RelativeToolTip": "Attlas.Domain\\Handlers\\Contracts\\IHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:16:18.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Contracts\\ICommand.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Commands\\Contracts\\ICommand.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Contracts\\ICommand.cs",
+              "RelativeToolTip": "Attlas.Domain\\Commands\\Contracts\\ICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:12:43.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Input\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Commands\\Input\\CreateUserCommand.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Input\\CreateUserCommand.cs",
+              "RelativeToolTip": "Attlas.Domain\\Commands\\Input\\CreateUserCommand.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwD8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:12:02.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserHandler.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Handlers\\UserHandler.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Handlers\\UserHandler.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Handlers\\UserHandler.cs",
+              "RelativeToolTip": "Attlas.Domain\\Handlers\\UserHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwCkAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:18:00.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Entities\\Expense.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\Expense.cs",
+              "RelativeToolTip": "Attlas.Domain\\Entities\\Expense.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:05:51.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Value Objects\\Email.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Value Objects\\Email.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Value Objects\\Email.cs",
+              "RelativeToolTip": "Attlas.Domain\\Value Objects\\Email.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T05:59:15.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Name.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Value Objects\\Name.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Value Objects\\Name.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Value Objects\\Name.cs",
+              "RelativeToolTip": "Attlas.Domain\\Value Objects\\Name.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwCQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T05:55:56.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Entities\\Entity.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\Entity.cs",
+              "RelativeToolTip": "Attlas.Domain\\Entities\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T05:53:28.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Attlas.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T05:52:57.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICommandResult.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Contracts\\ICommandResult.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Commands\\Contracts\\ICommandResult.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Contracts\\ICommandResult.cs",
+              "RelativeToolTip": "Attlas.Domain\\Commands\\Contracts\\ICommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T06:16:53.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryStatus.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Enums\\CategoryStatus.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Enums\\CategoryStatus.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Enums\\CategoryStatus.cs",
+              "RelativeToolTip": "Attlas.Domain\\Enums\\CategoryStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:52:20.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PixType.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Enums\\PixType.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Enums\\PixType.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Enums\\PixType.cs",
+              "RelativeToolTip": "Attlas.Domain\\Enums\\PixType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:39:20.156Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

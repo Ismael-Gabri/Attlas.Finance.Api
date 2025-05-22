@@ -1,9 +1,22 @@
+using Attlas.Domain.Handlers;
+using Attlas.Domain.Infra.Contexts;
+using Attlas.Domain.Infra.Repositories;
+using Attlas.Domain.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddControllers();  
+
+builder.Services.AddScoped<AttlasFinanceContext, AttlasFinanceContext>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IExpenseRepository, ExpenseRepository>();
+builder.Services.AddTransient<UserHandler, UserHandler>();
+builder.Services.AddTransient<ExpenseHandler, ExpenseHandler>();
 
 var app = builder.Build();
 
@@ -35,6 +48,8 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
+
+app.MapControllers();
 
 app.Run();
 

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Attlas.Domain.Api.props" />
+</Project>

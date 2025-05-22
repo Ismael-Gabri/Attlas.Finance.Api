@@ -1,0 +1,12 @@
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.AssemblyInfoInputs.cache
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.AssemblyInfo.cs
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.csproj.CoreCompileInputs.cache
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.sourcelink.json
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\bin\Debug\net8.0\Attlas.Domain.deps.json
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\bin\Debug\net8.0\Attlas.Domain.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\bin\Debug\net8.0\Attlas.Domain.pdb
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\refint\Attlas.Domain.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.pdb
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\ref\Attlas.Domain.dll

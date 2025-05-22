@@ -9,15 +9,14 @@ namespace Attlas.Domain.Entities
 {
     public class Expense
     {
-        public Expense(int id, int userId, int clientId, string title, string description, decimal amount, Category category, EPixType pixType, string pix, DateTime dateCreated)
+        public Expense(int userId, int clientId, string title, string description, decimal amount, int category, EPixType pixType, string pix)
         {
-            Id = id;
             UserId = userId;
             ClientId = clientId;
             Title = title;
             Description = description;
             Amount = amount;
-            Category = category;
+            CategoryId = category;
             PixType = pixType;
             Pix = pix;
             DateCreated = DateTime.UtcNow;
@@ -29,7 +28,7 @@ namespace Attlas.Domain.Entities
         public string Title { get; private set; }
         public string Description { get; private set; }
         public decimal Amount { get; private set; }
-        public Category Category { get; private set; }
+        public int CategoryId { get; private set; }
         public EPixType PixType { get; private set; }
         public string Pix { get; private set; }
         public DateTime DateCreated { get; private set; }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Attlas.Domain.Api.props" />
+</Project>

@@ -1,4 +1,5 @@
-﻿using Attlas.Domain.Entities;
+﻿using Attlas.Domain.Commands.Output;
+using Attlas.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,9 @@ namespace Attlas.Domain.Repositories
     {
         bool CheckEmail(string email);
         void Save(User user);
+        IEnumerable<GetUserCommandResult> GetAllUsers();
+        GetUserCommandResult GetUserById(int userId);
+        void DeleteUserById(int userId);
+
     }
 }

@@ -19,6 +19,7 @@ namespace Attlas.Domain.Handlers
         public UserHandler(IUserRepository repository)
         {
             _repository = repository;
+            Notifications = new Dictionary<string, string>();
         }
 
         public Dictionary<string, string> Notifications { get; set; }
@@ -35,7 +36,7 @@ namespace Attlas.Domain.Handlers
             if (name.Notifications.Count > 0 && email.Notifications.Count > 0)
                 Notifications.Add("Name or Email", "Incorrect format");
 
-            var user = new User(1, name, email, command.UserName, command.Password, Enums.ERole.Developer);
+            var user = new User(name, email, command.UserName, command.Password);
 
             _repository.Save(user);
 

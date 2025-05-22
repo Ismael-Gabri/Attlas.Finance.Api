@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZWPXefDnHki2ZrKXyj5q9WI5cQLnIBsyFOPQ66mFyXI=",
+  "Source": "Attlas.Domain.Api",
+  "BasePath": "_content/Attlas.Domain.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

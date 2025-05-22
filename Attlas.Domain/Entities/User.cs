@@ -11,14 +11,14 @@ namespace Attlas.Domain.Entities
     public class User
     {
         private readonly IList<Expense> _expenses;
-        public User(int id, Name name, Email email, string userName, string passwordHash, ERole role)
+        public User(Name name, Email email, string userName, string passwordHash)
         {
-            Id = id; //implementar lógica
             Name = name;
             Email = email;
             UserName = userName;
             PasswordHash = passwordHash;
             EntryDate = DateTime.UtcNow;
+            Role = ERole.Employee;
         }
 
         public int Id { get; private set; }

@@ -31,41 +31,23 @@ namespace Attlas.Domain.Commands.Input
             Dictionary<string, string> Notifications = new Dictionary<string, string>();
 
             if (FirstName.Length < 3)
-            {
                 Notifications.Add("FirstName", "O nome deve conter mais que 3 characteres");
-            }
             if (FirstName.Length > 20)
-            {
                 Notifications.Add("FirstName", "O nome deve conter menos que 20 characteres");
-            }
             if (LastName.Length < 3)
-            {
                 Notifications.Add("LastName", "O sobrenome deve conter mais que 3 characteres");
-            }
             if (LastName.Length > 20)
-            {
                 Notifications.Add("LastName", "O sobrenome deve conter menos que 20 characteres");
-            }
             if (FirstName.Any(char.IsDigit))
-            {
                 Notifications.Add("FirstName", "O nome não deve conter números");
-            }
             if (LastName.Any(char.IsDigit))
-            {
                 Notifications.Add("LastName", "O sobrenome não deve conter números");
-            }
             if (!IsValidEmail(Email))
-            {
                 Notifications.Add("Email", "E-mail inválido");
-            }
             if (Notifications.Count > 0)
-            {
                 return false;
-            }
             else
-            {
                 return true;
-            }
         }
         public static bool IsValidEmail(string email)
         {

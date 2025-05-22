@@ -9,7 +9,9 @@ namespace Attlas.Domain.Enums
     public enum EPixType
     {
         CPF = 1,
-        Email = 2,
-        Phone = 3,
+        CPNJ = 2,
+        Email = 3,
+        Phone = 4,
+        RandomKey = 5
     }
 }

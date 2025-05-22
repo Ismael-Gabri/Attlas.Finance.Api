@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Attlas.Domain\Attlas.Domain.csproj" />
-    <ProjectReference Include="Attlas.Domain.Api.csproj" />
     <ProjectReference Include="..\Attlas.Domain.Infra\Attlas.Domain.Infra.csproj" />
   </ItemGroup>
 

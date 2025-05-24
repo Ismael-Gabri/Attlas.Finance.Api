@@ -1,6 +1,9 @@
 ﻿using Attlas.Domain.Commands.Input;
 using Attlas.Domain.Commands.Output;
+using Attlas.Domain.Entities;
 using Attlas.Domain.Handlers;
+using Attlas.Domain.Infra.Contexts;
+using Attlas.Domain.Infra.Services;
 using Attlas.Domain.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +30,25 @@ namespace Attlas.Domain.Api.Controllers
             if (_handler.Notifications.Count > 0)
                 return BadRequest(_handler.Notifications);
             return result;
+        }
+
+        [HttpPost]
+        [Route("login")]
+        [AllowAnonymous]
+        public async Task<ActionResult<dynamic>> Authenticate([FromServices] AttlasFinanceContext context, [FromBody] LoginInputCommand model)
+        {
+            var users = _repository.GetAllUsers();
+            var user = users.FirstOrDefault(x => x.user_name == model.UserName && x.password_hash == model.Password);
+
+            if (user == null)
+                return NotFound(new { message = "Usuário não encontrado" });
+
+            var token = TokenService.GenerateToken(user);
+            return new
+            {
+                user = user,
+                token = token,
+            };
         }
 
         [HttpDelete("/users/{id}")]

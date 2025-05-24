@@ -82,3 +82,9 @@ C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\obj\Debug\net8.0\
 C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\obj\Debug\net8.0\Attlas.Domain.Api.pdb
 C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\obj\Debug\net8.0\Attlas.Domain.Api.genruntimeconfig.cache
 C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\obj\Debug\net8.0\ref\Attlas.Domain.Api.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain.Api\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll

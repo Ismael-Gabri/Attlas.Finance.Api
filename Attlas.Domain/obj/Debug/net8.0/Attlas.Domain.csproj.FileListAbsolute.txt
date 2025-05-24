@@ -10,3 +10,4 @@ C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attl
 C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\refint\Attlas.Domain.dll
 C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.pdb
 C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\ref\Attlas.Domain.dll
+C:\Desenvolvimento\Attlas\Attlas.Finance.Api\Attlas.Domain\obj\Debug\net8.0\Attlas.Domain.csproj.AssemblyReference.cache

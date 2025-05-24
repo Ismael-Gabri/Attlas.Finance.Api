@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ncIxEyFuQi5hjHc8NK9a4Wmot6Dt7Qfy1LoOOifi/2T7OFbkaiB+AftDqBNVVLxSCxeyH6FWgHmA/J6XYbQHsA==",
+  "dgSpecHash": "zf3ns6sHs+kZcNeUJwNLnVGNIW2i90+fgU96VCfeiNQUJy+P4AhcDE/COHn10A+4pihBY7W9VOsuDU1ZtGG2DA==",
   "success": true,
   "projectFilePath": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ismael\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Ismael\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Ismael\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.16\\microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512",
     "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
     "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.data.sqlclient\\6.0.2\\microsoft.data.sqlclient.6.0.2.nupkg.sha512",

@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NtblyHs3Ab/vGQuatIg7edV3vqJ9XPVgO72fbTi8k9CPeDbH1+Tkuux/YYj6dqv7bjQyd4c23KFHt43/vkKV1g==",
+  "dgSpecHash": "SRD7sKaeTPqGq612llshNCrgi3aOtVbTrXbdqg5GKXi7w83QVjkshHUs6zRdjh1wTEpRFOPBin1WKJsKQn/x6w==",
   "success": true,
   "projectFilePath": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Attlas.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.16\\microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\Ismael\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

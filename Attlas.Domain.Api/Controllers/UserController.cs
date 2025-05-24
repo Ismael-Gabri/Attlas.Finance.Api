@@ -52,7 +52,7 @@ namespace Attlas.Domain.Api.Controllers
         }
 
         [HttpDelete("/users/{id}")]
-        [AllowAnonymous]
+        [Authorize(Roles ="0")]
         public object Delete(int id)
         {
             _repository.DeleteUserById(id);
@@ -67,7 +67,7 @@ namespace Attlas.Domain.Api.Controllers
         }
 
         [HttpGet("/users/{id}")]
-        [AllowAnonymous]
+        [Authorize]
         public IActionResult Get(int id)
         {
             var user = _repository.GetUserById(id);

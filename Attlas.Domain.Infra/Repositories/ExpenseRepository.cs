@@ -1,4 +1,5 @@
-﻿using Attlas.Domain.Entities;
+﻿using Attlas.Domain.Commands.Output;
+using Attlas.Domain.Entities;
 using Attlas.Domain.Infra.Contexts;
 using Attlas.Domain.Repositories;
 using Dapper;
@@ -17,6 +18,58 @@ namespace Attlas.Domain.Infra.Repositories
         {
             _context = context;
         }
+
+        public IEnumerable<GetExpenseCommandResult> GetAllExpenses()
+        {
+            var query = @"
+        SELECT TOP (1000) 
+            [id],
+            [user_id],
+            [client_id],
+            [category_id],
+            [title],
+            [description],
+            [amount],
+            [pix_type],
+            [pix],
+            [date_created],
+            [date_updated]
+        FROM [attlas_finance].[dbo].[expenses]
+    ";
+
+            using (var connection = _context.GetConnection())
+            {
+                var expense = connection.Query<GetExpenseCommandResult>(query);
+                return expense;
+            }
+        }
+
+        public IEnumerable<GetExpenseCommandResult> GetExpensesByUserId(int userId)
+        {
+            var query = @"
+        SELECT 
+            [id],
+            [user_id],
+            [client_id],
+            [category_id],
+            [title],
+            [description],
+            [amount],
+            [pix_type],
+            [pix],
+            [date_created],
+            [date_updated]
+        FROM [attlas_finance].[dbo].[expenses]
+        WHERE [user_id] = @UserId
+    ";
+
+            using (var connection = _context.GetConnection())
+            {
+                var expenses = connection.Query<GetExpenseCommandResult>(query, new { UserId = userId });
+                return expenses;
+            }
+        }
+
         public void Save(Expense expense)
         {
             using (var connection = _context.GetConnection())

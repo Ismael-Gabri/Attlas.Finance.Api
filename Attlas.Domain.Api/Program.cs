@@ -1,4 +1,5 @@
 using Attlas.Domain.Handlers;
+using Attlas.Domain.Infra;
 using Attlas.Domain.Infra.Contexts;
 using Attlas.Domain.Infra.Repositories;
 using Attlas.Domain.Repositories;
@@ -21,6 +22,8 @@ builder.Services.AddScoped<IExpenseRepository, ExpenseRepository>();
 builder.Services.AddTransient<UserHandler, UserHandler>();
 builder.Services.AddTransient<ExpenseHandler, ExpenseHandler>();
 
+var key = Encoding.ASCII.GetBytes(Settings.Secret);
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -32,13 +35,11 @@ builder.Services.AddAuthentication(options =>
     options.SaveToken = true;
     options.TokenValidationParameters = new TokenValidationParameters
     {
-        ValidIssuer = builder.Configuration["JwtConfig:Issuer"],
-        ValidAudience = builder.Configuration["JwtConfig:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtConfig:Key"]!)),
-        ValidateIssuer = true,
-        ValidateAudience = true,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = false,
+        ValidateAudience = false,
         ValidateLifetime = true,
-        ValidateIssuerSigningKey = true
     };
 });
 builder.Services.AddAuthorization();

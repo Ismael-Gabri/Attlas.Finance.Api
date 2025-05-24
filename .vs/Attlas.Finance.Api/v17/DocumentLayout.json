@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{581C0578-D19A-4DD8-B2ED-FA78DFF0D2E8}|Attlas.Domain.Api\\Attlas.Domain.Api.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{581C0578-D19A-4DD8-B2ED-FA78DFF0D2E8}|Attlas.Domain.Api\\Attlas.Domain.Api.csproj|solutionrelative:attlas.domain.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{581C0578-D19A-4DD8-B2ED-FA78DFF0D2E8}|Attlas.Domain.Api\\Attlas.Domain.Api.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.api\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{581C0578-D19A-4DD8-B2ED-FA78DFF0D2E8}|Attlas.Domain.Api\\Attlas.Domain.Api.csproj|solutionrelative:attlas.domain.api\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.infra\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|solutionrelative:attlas.domain.infra\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.infra\\repositories\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|solutionrelative:attlas.domain.infra\\repositories\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.infra\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +17,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A593E-0EC3-4DE1-A0C2-5A536A85AFF3}|Attlas.Domain.Infra\\Attlas.Domain.Infra.csproj|solutionrelative:attlas.domain.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\repositories\\iexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\repositories\\iexpenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain\\commands\\output\\getexpensecommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503D7703-EDE7-44C3-9585-124277B3C91A}|Attlas.Domain\\Attlas.Domain.csproj|solutionrelative:attlas.domain\\commands\\output\\getexpensecommandresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{581C0578-D19A-4DD8-B2ED-FA78DFF0D2E8}|Attlas.Domain.Api\\Attlas.Domain.Api.csproj|c:\\desenvolvimento\\attlas\\attlas.finance.api\\attlas.domain.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{581C0578-D19A-4DD8-B2ED-FA78DFF0D2E8}|Attlas.Domain.Api\\Attlas.Domain.Api.csproj|solutionrelative:attlas.domain.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,44 +42,57 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Services\\TokenService.cs",
-              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Services\\TokenService.cs",
-              "RelativeToolTip": "Attlas.Domain.Infra\\Services\\TokenService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAASwBoAAABDAAAA",
+              "DocumentIndex": 1,
+              "Title": "ExpenseRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Repositories\\ExpenseRepository.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Repositories\\ExpenseRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Repositories\\ExpenseRepository.cs",
+              "RelativeToolTip": "Attlas.Domain.Infra\\Repositories\\ExpenseRepository.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAiwDYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T13:57:10.841Z",
+              "WhenOpened": "2025-05-24T22:38:05.087Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Settings.cs",
-              "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Settings.cs",
-              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Settings.cs",
-              "RelativeToolTip": "Attlas.Domain.Infra\\Settings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "DocumentIndex": 4,
+              "Title": "IExpenseRepository.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Repositories\\IExpenseRepository.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Repositories\\IExpenseRepository.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Repositories\\IExpenseRepository.cs",
+              "RelativeToolTip": "Attlas.Domain\\Repositories\\IExpenseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T13:17:56.409Z",
+              "WhenOpened": "2025-05-24T22:39:12.083Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Attlas.Domain.Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Attlas.Domain.Api\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAADgvysAAABMAAAA",
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Api\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain.Api\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Api\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "Attlas.Domain.Api\\Controllers\\ExpenseController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T19:59:02.786Z",
+              "WhenOpened": "2025-05-24T22:46:37.402Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Services\\TokenService.cs",
+              "RelativeToolTip": "Attlas.Domain.Infra\\Services\\TokenService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T22:54:05.18Z",
               "EditorCaption": ""
             },
             {
@@ -78,10 +103,35 @@
               "RelativeDocumentMoniker": "Attlas.Domain.Infra\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Infra\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Attlas.Domain.Infra\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T20:04:10.168Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-05-24T22:51:55.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetExpenseCommandResult.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Output\\GetExpenseCommandResult.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain\\Commands\\Output\\GetExpenseCommandResult.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain\\Commands\\Output\\GetExpenseCommandResult.cs",
+              "RelativeToolTip": "Attlas.Domain\\Commands\\Output\\GetExpenseCommandResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T22:48:57.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Attlas.Domain.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Desenvolvimento\\Attlas\\Attlas.Finance.Api\\Attlas.Domain.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Attlas.Domain.Api\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowD0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T22:46:47.253Z",
               "EditorCaption": ""
             }
           ]

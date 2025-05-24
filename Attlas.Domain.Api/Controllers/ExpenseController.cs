@@ -28,5 +28,20 @@ namespace Attlas.Domain.Api.Controllers
                 return BadRequest(_handler.Notifications);
             return result;
         }
+
+        [HttpGet("/expense")]
+        [AllowAnonymous]
+        public object Get()
+        {
+            return _repository.GetAllExpenses();
+        }
+
+        [HttpGet("/expense/user")]
+        [Authorize]
+        public object GetUserExpenses()
+        {
+            var userId = int.Parse(User.Identity.Name);
+            return _repository.GetExpensesByUserId(userId);
+        }
     }
 }

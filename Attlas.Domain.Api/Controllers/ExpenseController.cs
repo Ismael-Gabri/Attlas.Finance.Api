@@ -20,10 +20,12 @@ namespace Attlas.Domain.Api.Controllers
         }
 
         [HttpPost("/expense")]
-        [AllowAnonymous]
+        [Authorize]
         public object Post([FromBody] CreateExpenseCommand command)
         {
-            var result = (CreateExpenseCommandResult)_handler.Handler(command);
+            var userId = int.Parse(User.Identity.Name);
+
+            var result = (CreateExpenseCommandResult)_handler.Handler(command, userId);
             if (_handler.Notifications.Count > 0)
                 return BadRequest(_handler.Notifications);
             return result;
@@ -36,12 +38,38 @@ namespace Attlas.Domain.Api.Controllers
             return _repository.GetAllExpenses();
         }
 
+        [HttpGet("/expense/{id}")]
+        [AllowAnonymous]
+        public object GetById(int id)
+        {
+            return _repository.GetExpenseById(id);
+        }
+
         [HttpGet("/expense/user")]
         [Authorize]
         public object GetUserExpenses()
         {
             var userId = int.Parse(User.Identity.Name);
             return _repository.GetExpensesByUserId(userId);
+        }
+
+        [HttpDelete("/expense/user/{id}")]
+        [Authorize]
+        public object DeleteUserExpense(int id)
+        {
+            var userId = int.Parse(User.Identity.Name);
+
+            return _repository.DeleteExpenseById(userId, id);
+        }
+
+        [HttpPut("/expense/{id}")]
+        [Authorize]
+        public object UpdateExpense([FromBody] UpdateExpenseCommand command, int id)
+        {
+            var result = (UpdateExpenseCommandResult)_handler.Handler(id, command);
+            if (_handler.Notifications.Count > 0)
+                return BadRequest(_handler.Notifications);
+            return result;
         }
     }
 }

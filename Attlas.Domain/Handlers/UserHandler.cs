@@ -42,5 +42,10 @@ namespace Attlas.Domain.Handlers
 
             return new CreateUserCommandResult(user.Id, name.FirstName, name.LastName, email.Address, user.PasswordHash);
         }
+
+        public ICommandResult Handler(CreateUserCommand command, int userId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

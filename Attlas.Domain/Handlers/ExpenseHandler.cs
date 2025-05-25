@@ -22,15 +22,37 @@ namespace Attlas.Domain.Handlers
         }
         public Dictionary<string, string> Notifications { get; set; }
 
-        public ICommandResult Handler(CreateExpenseCommand command)
+        public ICommandResult Handler(CreateExpenseCommand command, int userId)
         {
             if (!command.Validate())
                 Notifications.Add("Command Validation", "Something is Wrong");
 
-            var expense = new Expense(command.UserId, command.ClientId, command.Title, command.Description, command.Amount, command.CategoryId, command.PixType, command.Pix);
+            var expense = new Expense(userId, command.ClientId, command.Title, command.Description, command.Amount, command.CategoryId, command.PixType, command.Pix);
             _repository.Save(expense);
 
             return new CreateExpenseCommandResult(expense.UserId, expense.ClientId, expense.Title, expense.Description, expense.Amount, expense.CategoryId, expense.PixType, expense.Pix);
+        }
+
+        public ICommandResult Handler(int expenseId, UpdateExpenseCommand command)
+        {
+
+            var expense = _repository.GetExpenseById(expenseId);
+
+            expense.Title = command.Title;
+            expense.Description = command.Description;
+            expense.Pix = command.Pix;
+            expense.Pix_Type = command.PixType;
+
+            var newExpense = new Expense(expense.Id, expense.Cliente_Id, expense.Title, expense.Description, expense.Amount, expense.Category_Id, expense.Pix_Type, expense.Pix);
+
+            _repository.UpdateExpenseById(newExpense, expense.Id);
+
+            return new UpdateExpenseCommandResult();
+        }
+
+        public ICommandResult Handler(CreateExpenseCommand command)
+        {
+            throw new NotImplementedException();
         }
     }
 }

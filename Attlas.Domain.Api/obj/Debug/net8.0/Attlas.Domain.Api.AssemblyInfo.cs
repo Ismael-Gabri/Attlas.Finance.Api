@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Attlas.Domain.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f05099851e8aae8a04d114b43dff30306479acf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f760b7dc79762fb9209aa3f72aa423e288478c66")]
 [assembly: System.Reflection.AssemblyProductAttribute("Attlas.Domain.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Attlas.Domain.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

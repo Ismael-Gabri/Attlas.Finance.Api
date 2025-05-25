@@ -11,9 +11,8 @@ namespace Attlas.Domain.Commands.Input
     public class CreateExpenseCommand : ICommand
     {
         public CreateExpenseCommand() { }
-        public CreateExpenseCommand(int userId, int clientId, string title, string description, decimal amount, int categoryId, EPixType pixType, string pix)
+        public CreateExpenseCommand(int clientId, string title, string description, decimal amount, int categoryId, EPixType pixType, string pix)
         {
-            UserId = userId;
             ClientId = clientId;
             Title = title;
             Description = description;
@@ -23,7 +22,6 @@ namespace Attlas.Domain.Commands.Input
             Pix = pix;
         }
 
-        public int UserId { get; set; }
         public int ClientId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
@@ -36,8 +34,6 @@ namespace Attlas.Domain.Commands.Input
 
         public bool Validate()
         {
-            if (UserId <= 0)
-                Notifications.Add("UserId", "O ID do usuário é obrigatório e deve ser maior que 0.");
 
             if (ClientId <= 0)
                 Notifications.Add("ClientId", "O ID do cliente é obrigatório e deve ser maior que 0.");

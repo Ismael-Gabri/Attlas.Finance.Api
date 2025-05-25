@@ -10,5 +10,6 @@ namespace Attlas.Domain.Handlers.Contracts
     public interface IHandler<T> where T : ICommand
     {
         ICommandResult Handler(T command);
+        ICommandResult Handler(T command, int userId);
     }
 }

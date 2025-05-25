@@ -25,12 +25,12 @@ namespace Attlas.Domain.Entities
         public int Id { get; private set; }
         public int UserId { get; private set; }
         public int ClientId { get; private set; }
-        public string Title { get; private set; }
-        public string Description { get; private set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
         public decimal Amount { get; private set; }
         public int CategoryId { get; private set; }
-        public EPixType PixType { get; private set; }
-        public string Pix { get; private set; }
+        public EPixType PixType { get; set; }
+        public string Pix { get; set; }
         public DateTime DateCreated { get; private set; }
         public DateTime? DateUpdated { get; private set; }
     }
